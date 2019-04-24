@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2019, 12:18:14 PM
+    Author     : Derrick Njoroge
+*/
+
+h1,h2,h3,h4,h5,h6,p,ul,hr {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color:#000;
+}
+ul {
+    list-style-type: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+@import 'mixins';
+@import 'flex-box';

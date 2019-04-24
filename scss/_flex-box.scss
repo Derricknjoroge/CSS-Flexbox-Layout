@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2019, 12:20:02 PM
+    Author     : HP
+*/
+
+
+//Full Width Wrapper
+.container-fluid{
+    width:100%;
+}
+
+//80% Wrapper
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+//Full Width Row width flexbox
+.row{
+    width:100%;
+    @include flexbox;
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+    //Column with Flex value of 1
+    .col{
+        @include flex(1);
+    }
+    //Column with Flex-basis value of 100%
+    .col-12{
+        @include flex-basis(100%);
+    }
+    //Column with Flex-basis value of 50%
+    .col-6{
+        @include flex-basis(49.5%);
+    }
+    //Column with Flex-basis value of 70%
+    .col-8{
+        @include flex-basis(69%);
+    }
+    //Column with Flex-basis value of 30%
+    .col-4{
+        @include flex-basis(30%);
+    }
+}
+
+
+@include mQ(800px){
+    .row{
+        @include flex-direction(column);   
+    }
+}
