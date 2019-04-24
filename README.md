@@ -126,3 +126,10 @@ This gives the structure below :
         </div>
     </body>
 ```
+**_Desktop View_**
+![Desktop View](https://github.com/Derricknjoroge/CSS-Flexbox-Layout/blob/master/Capture.PNG)
+
+**_Mobile View_**<br>
+![Mobile View](https://github.com/Derricknjoroge/CSS-Flexbox-Layout/blob/master/Capture2.PNG)
+
+**Happy Coding** :shipit:
